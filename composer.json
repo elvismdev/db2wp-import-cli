@@ -1,0 +1,37 @@
+{
+  "name": "forumone/db2wp-import-cli",
+  "description": "Imports contents from a given DB connection.",
+  "type": "wordpress-plugin",
+  "keywords": ["wordpress", "plugin", "migrations", "doctrine", "mysql", "mssql"],
+  "homepage": "http://forumone.github.io/db2wp-import-cli",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Forum One",
+      "email": "info@forumone.com",
+      "homepage": "http://forumone.com",
+      "role": "Company"
+    },
+    {
+      "name": "Elvis Morales",
+      "email": "emorales@forumone.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/forumone/db2wp-import-cli/issues",
+    "source": "https://github.com/forumone/db2wp-import-cli"
+  },
+  "autoload": {
+    "psr-4": {
+      "Forum_One\\DB2WP_Import_CLI\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "composer/installers": "~1.0",
+    "doctrine/orm": "*",
+    "symfony/dom-crawler": "^5.1",
+    "symfony/css-selector": "^5.1"
+  }
+}
